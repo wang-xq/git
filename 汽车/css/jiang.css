@@ -1,0 +1,83 @@
+mark {
+  background: none; }
+
+.youjiang {
+  padding: 0;
+  float: right; }
+  .youjiang > h3 {
+    padding: 0 10px;
+    width: 683px;
+    margin: 0 auto;
+    border-bottom: 1px solid #99989D;
+    font-size: 12px;
+    height: 23px;
+    margin-top: 15px;
+    font-weight: bolder; }
+    .youjiang > h3 img {
+      margin: 0 5px; }
+  .youjiang .jiang_main {
+    padding: 0 22px 0 14px;
+    width: 665px;
+    margin: 0 auto; }
+    .youjiang .jiang_main .jiang_top, .youjiang .jiang_main .jiang_bottom {
+      height: 194px;
+      border-bottom: 1px dashed #99989D; }
+    .youjiang .jiang_main .content_midden {
+      float: left;
+      margin-left: 16px; }
+      .youjiang .jiang_main .content_midden h3 {
+        margin-top: 24px;
+        line-height: 26px;
+        font-size: 14px;
+        font-weight: bolder; }
+      .youjiang .jiang_main .content_midden .midden_price {
+        line-height: 26px;
+        font-size: 14px; }
+        .youjiang .jiang_main .content_midden .midden_price span {
+          font-size: 20px;
+          margin: 0 10px; }
+      .youjiang .jiang_main .content_midden .midden_num {
+        line-height: 26px;
+        font-size: 14px; }
+        .youjiang .jiang_main .content_midden .midden_num span {
+          font-size: 20px;
+          margin: 0 10px; }
+        .youjiang .jiang_main .content_midden .midden_num span:first-of-type {
+          margin: 0 5px; }
+      .youjiang .jiang_main .content_midden .midden_date {
+        line-height: 26px;
+        font-size: 14px; }
+        .youjiang .jiang_main .content_midden .midden_date mark {
+          font-size: 12px; }
+    .youjiang .jiang_main .content_right {
+      float: right; }
+      .youjiang .jiang_main .content_right p {
+        margin-top: 70px;
+        font-size: 12px;
+        line-height: 28px; }
+      .youjiang .jiang_main .content_right input {
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 12px; }
+      .youjiang .jiang_main .content_right .right_state {
+        background: url(../img/canyu.png) 0 0; }
+      .youjiang .jiang_main .content_right .right_end {
+        background: url(../img/jinzhi.png) 0 0; }
+    .youjiang .jiang_main .content_left {
+      position: relative;
+      float: left; }
+      .youjiang .jiang_main .content_left .cont_img {
+        margin-top: 10px; }
+      .youjiang .jiang_main .content_left .new {
+        position: absolute;
+        left: -3px;
+        top: 8px; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }

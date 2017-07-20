@@ -1,0 +1,113 @@
+@charset "utf-8";
+mark {
+  background: none;
+}
+
+.youjiang {
+  padding: 0;!important;
+  float: right;
+
+  > h3 {
+    padding: 0 10px;
+    width: 683px;
+    margin: 0 auto;
+    border-bottom: 1px solid #99989D;
+    font-size: 12px;
+    height: 23px;
+    margin-top: 15px;
+    font-weight: bolder;
+    img {
+      margin: 0 5px;
+    }
+  }
+  .jiang_main {
+    padding: 0 22px 0 14px;
+    width: 665px;
+    margin: 0 auto;
+    .jiang_top, .jiang_bottom {
+      height: 194px;
+
+      border-bottom: 1px dashed #99989D;
+    }
+    .content_midden {
+      float: left;
+      margin-left: 16px;
+      h3 {
+        margin-top: 24px;
+        line-height: 26px;
+        font-size: 14px;
+        font-weight: bolder;
+      }
+      .midden_price {
+        line-height: 26px;
+        font-size: 14px;
+        span {
+          font-size: 20px;
+          margin: 0 10px;
+        }
+
+      }
+      .midden_num {
+        line-height: 26px;
+        font-size: 14px;
+        span {
+          font-size: 20px;
+          margin: 0 10px;
+        }
+        span:first-of-type {
+          margin: 0 5px;
+        }
+      }
+      .midden_date {
+        line-height: 26px;
+        font-size: 14px;
+        mark {
+          font-size: 12px;
+        }
+      }
+
+    }
+    .content_right {
+      float: right;
+      p {
+        margin-top: 70px;
+        font-size: 12px;
+        line-height: 28px;
+      }
+      input {
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 12px;
+      }
+      .right_state {
+        background: url(../img/canyu.png) 0 0;
+      }
+      .right_end {
+        background: url(../img/jinzhi.png) 0 0;
+      }
+    }
+    .content_left {
+      position: relative;
+      float: left;
+      .cont_img {
+        margin-top: 10px;
+      }
+      .new {
+        position: absolute;
+        left: -3px;
+        top: 8px;
+      }
+    }
+
+  }
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

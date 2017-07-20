@@ -1,0 +1,82 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.coupon {
+  float: right;
+  .coupon_main {
+    width: 690px;
+    margin: 0 auto;
+    h3 {
+      font-size: 12px;
+      font-weight: bolder;
+      line-height: 23px;
+      padding-top: 13px;
+      border-bottom: 2px solid #CCCCCC;
+
+      img {
+        margin-left: 6px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
+    .coupon_top, .coupon_bottom {
+      width: 700px;
+      height: 160px;
+      border-bottom: 1px dashed #ccc;
+      //padding-top: 20px;
+      overflow: hidden;
+    }
+    .coupon_tl {
+      position: relative;
+      padding: 5px;
+      overflow: hidden;
+      width: 132px;
+      height: 102px;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+      float: left;
+      .quan {
+        position: absolute;
+        right: -29px;
+        top: 13px;
+        background-color: #ff4c37;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+        transform: rotateZ(45deg)
+      }
+    }
+    .coupon_tr {
+      margin-left: 50px;
+      float: left;
+      h5, p {
+        font-size: 12px;
+        line-height: 23px;
+        span {
+          color: red;
+        }
+      }
+      h5 {
+        margin-top: 20px;
+        font-weight: bolder;
+      }
+      input {
+        background-color: #ebebeb;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 0 14px;
+        margin-right: 5px;
+      }
+    }
+
+  }
+}

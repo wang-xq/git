@@ -1,0 +1,196 @@
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: " ";
+}
+
+.content {
+  //width: 100%;
+  //background: #6c737a;
+  .ct_center {
+    width: 950px;
+    height: 875px;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 11px 9px 0 4px;
+    .ct_left {
+      float: left;
+      width: 220px;
+      background: #f2f2f2;
+      border: 1px solid #dfdfdf;
+      padding-bottom: 7px;
+      li {
+        font-weight: bold;
+        .ct_lf_btn1 {
+          display: block;
+          margin: 7px auto 0;
+          width: 146px;
+          height: 30px;
+          line-height: 30px;
+          //text-align: center;
+          font-size: 12px;
+          color: #595959;
+          background: url('../img/show_btn_06.png') no-repeat center;
+          padding-left: 66px;
+        }
+        .btn1_active {
+          background: url("../img/show_btn_03.png") no-repeat center;
+        }
+
+        .ct_lf_btn2 {
+          width: 180px;
+          height: 28px;
+          line-height: 28px;
+          border: 1px solid #cacaca;
+          border-radius: 1px;
+          background: url("../img/navL-bg_03.png") repeat-x;
+          margin: 9px auto;
+          font-size: 12px;
+          & > span {
+            margin-left: 57px;
+            padding-left: 16px;
+            background: url("../img/show_jt_03.png") no-repeat left center;
+          }
+        }
+      }
+    }
+    .ct_right {
+      width: 720px;
+      float: right;
+      position: relative;
+      .ct_title {
+        padding-bottom: 4px;
+        border-bottom: 1px solid #dcdcdc;
+        font-size: 12px;
+        line-height: 23px;
+        padding-left: 29px;
+        background: url("../img/car-icon.png") no-repeat 5px center;
+      }
+      .ct_body {
+        padding: 15px;
+        .commodity {
+          float: left;
+          .commodityBig {
+            width: 287px;
+            height: 217px;
+            padding: 3px;
+            border: 1px solid #c4c4c4;
+            margin-bottom: 11px;
+            position: relative;
+            & > ul {
+              & > li {
+                display: none;
+                width: 287px;
+                height: 217px;
+                position: absolute;
+                left: 3px;
+                top: 3px;
+                overflow: hidden;
+                img {
+                  display: block;
+                  height: 217px;
+                }
+              }
+              li:nth-child(1) {
+                display: block;
+              }
+
+            }
+          }
+          .commoditySmall {
+            & > li {
+              float: left;
+              width: 68px;
+              height: 50px;
+              margin-left: 4px;
+              overflow: hidden;
+              border: 1px solid #c4c4c4;
+              img {
+                height: 52px;
+                display: block;
+              }
+            }
+          }
+        }
+        .information {
+          float: left;
+          margin-left: 52px;
+          & > ul {
+            li {
+              font-size: 12px;
+              line-height: 36px;
+              i {
+                font-style: normal;
+
+              }
+              input {
+                border: 1px solid #c6c6c6;
+                border-radius: 5px;
+                font-size: 20px;
+                width: 137px;
+                height: 42px;
+                margin-top: 25px;
+                background: url("../img/dinggou_btn.png") no-repeat center;
+              }
+              img {
+                margin-left: 3px;
+              }
+            }
+            li:nth-child(1) {
+              i {
+                font-size: 14px;
+                font-weight: bolder;
+              }
+            }
+            li:nth-child(2) {
+              i {
+                font-size: 19px;
+                padding: 0 8px;
+              }
+            }
+          }
+        }
+        .com_banner {
+          float: left;
+          padding-top: 22px;
+          img {
+            display: block;
+          }
+        }
+      }
+
+      .bigPic {
+        width: 385px;
+        height: 287px;
+        position: absolute;
+        left: 330px;
+        top: 44px;
+        background: red;
+        box-shadow: 0px 10px 15px #e0e0e0;
+        overflow: hidden;
+        display: none;
+        img {
+          width: 500px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.head {
+  display: inline-block;
+  width: 100px;
+  z-index: 30;
+  position: absolute;
+  height: 100px;
+  background: rgba(225, 225, 86, 0.3);
+  right: 0;
+  bottom: 0;
+  cursor: all-scroll;
+}
+
+.ct_right_1 {
+  display: none;
+}

@@ -1,0 +1,200 @@
+.txt {
+    width: 702px;
+    float: right;
+    /*margin-right: 10px;*/
+    margin-top: 10px;
+}
+
+.txt .liuyan {
+    /*width: 710px;*/
+    height: 27px;
+    border-bottom: 1px solid #E5E5E5;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.txt .liuyan .span1 {
+    float: left;
+}
+
+.txt .liuyan .span2 {
+    float: right;
+    width: 84px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.txt .liuyan .span2 a {
+    display: block;
+    width: 76px;
+    height: 22px;
+    border-radius: 10px 10px 0 0;
+    background: #F5F5F5;
+    color: #000;
+    font-weight: 400;
+    padding: 2px 4px 0 4px;
+}
+
+.txt .tent1 {
+    margin-top: 24px;
+    color: #AEAEAE;
+}
+
+.txt .tent1 .t_left {
+    float: left;
+    margin-left: 48px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.txt .tent1 .t_right {
+    width: 516px;
+    line-height: 28px;
+    float: right;
+    margin-right: 50px;
+}
+
+.txt .tent1 .t_right .p1 span {
+    color: #10A1A1;
+}
+
+.txt .tent1 .t_right .p2 {
+    font-weight: 600;
+}
+
+.txt .tent1 .t_right .p3 {
+    width: 516px;
+    height: 76px;
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+}
+
+.txt .tent1 .t_right .p3 span {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.txt2 {
+    width: 702px;
+    float: right;
+    /*margin-right: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.txt2 .liuyan {
+    width: 710px;
+    height: 27px;
+    border-bottom: 1px solid #E5E5E5;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.txt2 .liuyan .span1 {
+    float: left;
+}
+
+.txt2 .liuyan .span2 {
+    float: right;
+    width: 84px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.txt2 .liuyan .span2 a {
+    display: block;
+    width: 76px;
+    height: 22px;
+    border-radius: 10px 10px 0 0;
+    background: #F5F5F5;
+    color: #000;
+    font-weight: 400;
+    padding: 2px 4px 0 4px;
+}
+
+.txt2 .tent1 {
+    margin-top: 24px;
+    color: #AEAEAE;
+}
+
+.txt2 .tent1 .t_left {
+    float: left;
+    margin-left: 48px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.txt2 .tent1 .t_right {
+    width: 516px;
+    line-height: 28px;
+    float: right;
+    margin-right: 50px;
+}
+
+.txt2 .tent1 .t_right .p1 span {
+    color: #10A1A1;
+}
+
+.txt2 .tent1 .t_right .p2 {
+    font-weight: 600;
+}
+
+.txt2 .tent1 .t_right .p3 {
+    width: 516px;
+    height: 76px;
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+}
+
+.txt2 .tent1 .t_right .p3 span {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ol {
+    margin: 0px auto;
+    width: 162px;
+    height: 54px;
+    margin-bottom: 17px;
+}
+
+ol li {
+    float: left;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, #cccccc, #9a9a9a);
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+ol li a {
+    color: #797979;
+}
+
+ol li:nth-child(1) {
+    margin-top: -2px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    background: #292929;
+}
+
+ol li:nth-child(1) a {
+    color: #ffffff;
+}
+
+ol:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+/*# sourceMappingURL=khly.css.map */

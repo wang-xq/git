@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+.content{
+    width: 950px;
+    border-top: 1px solid #F7F8F8;
+    margin: 0 auto;
+    background:#fff;
+    .list{
+        float: left;
+        &>ul{
+           float: left;
+           width: 219px;
+           height: 320px;
+           border: 1px solid #CECECE;
+           margin-top: 10px;
+           margin-left: 4px;
+           li{
+               width: 204px;
+               height: 28px;
+               background: url(../img/navL-bg_03.png) repeat-x 0 0;
+               border: 1px solid #CECECE;
+               margin: 8px ;
+               a{
+                   color: #606160;
+                   font-weight: 600;
+                   display: block;
+                   padding: 8px;
+                   &:hover{
+                       color: #00ADEF;
+                   }
+               }
+           }
+        }
+    }
+    .right{
+        position: relative;
+        float:right;
+
+        width: 701px;
+        h2{
+            margin-top: 9px;
+            padding: 7px 0px;
+            font-size: 12px;
+            border-bottom: 1px solid #dcdcdc;
+            img{
+                margin: 0px 5px;
+            }
+        }
+        .qqbtn{
+            position: absolute;
+            top: 173px;
+            left: 163px;
+            z-index: 999;
+        }
+        .cont-top{
+            padding: 19px 0px 33px 25px;
+            p{
+                position: relative;
+                height: 27px;
+                line-height: 27px;
+                font-size: 14px;
+                font-weight: bold;
+                span{
+                    padding-left: 6px;
+                    font-size: 12px;
+                    font-weight:normal;
+                }
+                a{
+                    padding-left: 10px;
+                    position:absolute;
+                    width: 74px;
+                    height: 22px;
+                }
+            }
+        }
+        .cont-bottom{
+            padding-left:25px;
+            margin-bottom: 40px;
+            button{
+                font-size: 14px;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 14px;
+            }
+            .location{
+                margin-top: 19px;
+                width: 612px;
+                height: 402px;
+                border: 1px solid #b0b0b2;
+                img{
+                    width: 612px;
+                    height: 402px;
+                }
+            }
+        }
+    }
+}
+
+
+.footer{
+    width: 950px;
+    height: 118px;
+    margin: 0 auto;
+    border-top: 1px solid #7E8085;
+    margin-top: 10px;
+    background: url(../img/footer_bg.png) repeat-y 0 0;
+    h4{
+        color: #674841;
+        font-size: 24px;
+        line-height: 118px;
+        float: left;
+        margin-left: 14px;
+    }
+    .fer-right{
+        float: right;
+        text-align: right;
+        margin-top: 34px;
+        line-height: 24px;
+        color: #777879;
+    }
+}

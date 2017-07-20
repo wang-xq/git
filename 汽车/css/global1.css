@@ -1,0 +1,33 @@
+
+
+.banner {
+    width: 950px;
+    margin: 9px auto;
+}
+
+
+.footer {
+    width: 950px;
+    height: 118px;
+    margin: 0 auto;
+    border-top: 1px solid #7E8085;
+    margin-top: 10px;
+    background: url(../img/footer_bg.png) repeat-y 0 0;
+}
+
+.footer h4 {
+    color: #674841;
+    font-size: 24px;
+    line-height: 118px;
+    float: left;
+    margin-left: 14px;
+}
+
+.footer .fer-right {
+    float: right;
+    text-align: right;
+    margin-top: 34px;
+    line-height: 24px;
+    color: #777879;
+}
+

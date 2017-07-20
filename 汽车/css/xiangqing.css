@@ -1,0 +1,96 @@
+
+
+.chuxiao {
+    width: 725px;
+    height: 594px;
+    float: left;
+}
+
+.chuxiao .top {
+    width: 700px;
+    height: 38px;
+    margin-left: 15px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.chuxiao .top .zuo {
+    width: 350px;
+    height: 38px;
+    float: left;
+}
+
+.chuxiao .top .zuo img {
+    float: left;
+    margin-left: 6px;
+    margin-top: 16px;
+}
+
+.chuxiao .top .zuo span {
+    font-size: 12px;
+    float: left;
+    margin-top: 17px;
+    margin-bottom: 9px;
+    margin-left: 4px;
+    font-weight: bolder;
+}
+
+.chuxiao .top .you {
+    width: 350px;
+    height: 38px;
+    float: left;
+}
+
+.chuxiao .top .you a {
+    color: gray;
+}
+
+.chuxiao .top .you a span {
+    float: right;
+    margin-top: 17px;
+    padding-right: 0px;
+}
+
+.chuxiao .content {
+    width: 700px;
+}
+
+.chuxiao .content .content_top {
+    width: 598px;
+    margin-left: 46px;
+    text-align: center;
+    border-bottom: 1px dashed gray;
+}
+
+.chuxiao .content .content_top h2 {
+    margin-top: 16px;
+}
+
+.chuxiao .content .content_top p {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.chuxiao .content .content_top p span {
+    color: red;
+}
+
+.chuxiao .content .content_bottom {
+    width: 512px;
+    margin-left: 90px;
+    margin-top: 14px;
+}
+
+.chuxiao .content .content_bottom img {
+    margin-bottom: 14px;
+    width: 512px;
+    height: 276px;
+}
+
+.chuxiao .content .content_bottom p {
+    font-size: 13px;
+    color: gray;
+}
+
+.chuxiao .content .content_bottom p a {
+    color: gray;
+}

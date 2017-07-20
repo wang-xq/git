@@ -1,0 +1,40 @@
+body {
+  background-color: #d7ff26;
+}
+
+.clearFix {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.news_right {
+  width: 699px;
+  height: 594px;
+  float: right;
+  //padding: 10px 8px 0 16px;
+  .news_title {
+    h3 {
+      padding-left: 30px;
+      background: url("../img/car-icon.png") no-repeat 6px 5px;
+      line-height: 28px;
+      border-bottom: 1px solid #dcdcdc;
+    }
+  }
+  .news_lists {
+    #news_ul {
+      margin: 14px 6px 0 10px;
+      > li {
+        line-height: 28px;
+        border-bottom: 1px solid #e2e2e2;
+        padding: 0 10px;
+        span:last-of-type {
+          float: right;
+        }
+      }
+      > li:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+}
